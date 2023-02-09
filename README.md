@@ -5,6 +5,7 @@ In his famous book http://iman.sn/bibliotek/livres/filieres/banque-finance-assur
 
 II – Programs of study
 Programs of study are following ones:
+
 -	1/Finite difference
    - Explicit method/European calls, puts and binaries: To get started you should learn the explicit method as applied to the Black–Scholes equation for a European option.  
    - Explicit method/American calls, puts and binaries  
@@ -14,6 +15,7 @@ Programs of study are following ones:
    - Interest rate products
    - Two-factor explicit
    - Two-factor implicit
+   
 -	2/Monte Carlo
 - European calls, puts and binaries on a single equity
 - Path-dependent option on a single equity: Price a barrier, Asian, lookback etc.
