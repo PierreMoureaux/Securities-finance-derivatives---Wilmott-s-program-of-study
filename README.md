@@ -1,7 +1,7 @@
 Paul Wilmott’s program of study
 
 I – Introduction
-In his famous book http://iman.sn/bibliotek/livres/filieres/banque-finance-assurance/pdfs/paul-wilmott-on-quantitative-finance.pdf, Paul Wilmott highlighted several program of studies about numerical methods (especially finite difference and monte-carlo simulation). The purpose of this git-hub stream will be to follow this program and show numerical results for Securities finance products, mostly derivatives (Total return swaps)
+In his famous book http://iman.sn/bibliotek/livres/filieres/banque-finance-assurance/pdfs/paul-wilmott-on-quantitative-finance.pdf, Paul Wilmott highlighted several program of studies about numerical methods (especially finite difference and monte-carlo simulation). The purpose of this git-hub stream will be to follow this program and show numerical results for Securities finance products, mostly for derivatives (Total return swaps)
 
 II – Programs of study
 Programs of study are following ones:
