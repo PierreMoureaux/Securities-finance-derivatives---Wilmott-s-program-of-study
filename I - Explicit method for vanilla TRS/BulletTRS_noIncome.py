@@ -72,12 +72,8 @@ class FDExplicitEu(FiniteDifferences):
     def setup_boundary_conditions(self):
         if self.is_receive_perf:
             self.grid[:,-1] = self.boundary_conds - self.K - self.rTRS*self.K*self.T
-            self.grid[-1,:-1] = (self.Smax-self.K - self.rTRS*self.K*self.T) * \
-                np.exp(-self.r*self.dt*(self.N-self.j_values))
         else:
             self.grid[:,-1] = -(self.boundary_conds - self.K - self.rTRS*self.K*self.T)
-            self.grid[0,:-1] = (self.K-self.Smax + self.rTRS*self.K*self.T) * \
-                np.exp(-self.r*self.dt*(self.N-self.j_values))
 
     def setup_coefficients(self):
         self.a = self.dt*(self.r -self.cyield)*self.i_values
