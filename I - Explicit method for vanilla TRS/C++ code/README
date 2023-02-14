@@ -1,0 +1,6 @@
+Code quality disclaimers :
+
+1/Shared pointer part need to be revamped in order to use unique pointer
+2/Useless and potentially dangerous coupling between classes about TRS interest rate need to be revamped
+3/Interpolate function need to be developped once C++20 is available, through std::lerp
+
