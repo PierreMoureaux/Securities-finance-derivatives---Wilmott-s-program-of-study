@@ -18,7 +18,7 @@ Programs of study are following ones:
    
 -	2/Monte Carlo
 - Vanilla TRS  on a single equity
-- longstaff-schwartz for cancellable TRS
+- longstaff-schwartz algorithm for cancellable TRS
 - Path-dependent embedded option on a single equity : performance/financing barrier, average performance price/strike, lookback
 - TRS on many stocks (Basket return swap) : Price a multi-asset contract by simulating correlated random walks
 - Interest rate derivatives, spot rate model
