@@ -8,17 +8,18 @@ Programs of study are following ones:
 
 -	1/Finite difference
    - Explicit method for vanilla TRS 
-   - Explicit method for cancellable swap 
+   - Explicit method for cancellable TRS 
    - Crank–Nicolson for vanilla TRS 
-   - Crank–Nicolson for cancellable swap
-   - Explicit method for path-dependant exotics TRS (embedded options barrier, Asian, lookback)
+   - Crank–Nicolson for cancellable TRS
+   - Explicit method for path-dependent embedded option on a single equity : performance/financing barrier, average performance price/strike, lookback
    - TRS on Bonds and interest rate dependencies
    - Two-factor explicit, with both stochastic asset and interest rate
    - Two-factor implicit, with both stochastic asset and interest rate
    
 -	2/Monte Carlo
 - Vanilla TRS  on a single equity
-- Path-dependent embedded option on a single equity: Price a barrier, Asian, lookback
+- longstaff-schwartz for cancellable TRS
+- Path-dependent embedded option on a single equity : performance/financing barrier, average performance price/strike, lookback
 - TRS on many stocks (Basket return swap) : Price a multi-asset contract by simulating correlated random walks
 - Interest rate derivatives, spot rate model
 - TRS with floating financing rate, HJM model
