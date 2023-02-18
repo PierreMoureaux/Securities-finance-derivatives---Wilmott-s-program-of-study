@@ -7,7 +7,7 @@
 
 int main(int argc, char **argv) {
 	// Create the option parameters
-	double K = 50;  // Strike price
+	double K = 50;  // Strike price (TRS settlement price)
 	double r0 = 0.04;  // agreed TRS financing rate
 	double r = 0.01;   // Risk-free rate (1%)
 	double T = 1.00;    // One year until expiry
@@ -18,7 +18,7 @@ int main(int argc, char **argv) {
 	double t_dom = T;         // Time period as for the TRS
 	unsigned long N = 20;
 
-	// Create the PayOff and Option objects
+	// Create the PayOff and TRS objects
 	std::shared_ptr<PayOff> Pay_Off_Perf_Receiver = std::make_shared<PayOffPerfReceiver>(K, r0);
 	std::shared_ptr<VanillaTRS> Vanilla_TRS = std::make_shared<VanillaTRS>(K, r, T, Pay_Off_Perf_Receiver);
 
