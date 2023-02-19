@@ -1,5 +1,5 @@
-#ifndef __VANILLA_OPTION_H
-#define __VANILLA_OPTION_H
+#ifndef __VANILLA_TRS_H
+#define __VANILLA_TRS_H
 
 #include "PayOff.h"
 #include <memory>
