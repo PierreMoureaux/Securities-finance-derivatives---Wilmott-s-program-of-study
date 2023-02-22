@@ -6,14 +6,14 @@ In his famous book http://iman.sn/bibliotek/livres/filieres/banque-finance-assur
 II – Programs of study
 Programs of study are following ones:
 
-   - Explicit method for vanilla TRS 
-   - Explicit method for cancellable TRS 
-   - Crank–Nicolson for vanilla TRS 
-   - Crank–Nicolson for cancellable TRS
-   - Explicit method for path-dependent embedded option on a single equity : performance/financing barrier, average performance price/strike, lookback
-   - TRS on Bonds and interest rate dependencies
-   - Two-factor explicit, with both stochastic asset and interest rate
-   - Two-factor implicit, with both stochastic asset and interest rate
+   - I-Explicit method for vanilla TRS 
+   - II-Explicit method for cancellable TRS 
+   - III-Crank–Nicolson for vanilla TRS 
+   - IV-Crank–Nicolson for cancellable TRS
+   - V-Explicit method for path-dependent embedded option on a single equity : performance/financing barrier, average performance price/strike, lookback
+   - VI-TRS on Bonds and interest rate dependencies
+   - VII-Two-factor explicit, with both stochastic asset and interest rate
+   - VIII-Two-factor implicit, with both stochastic asset and interest rate
 
 III – Disclaimers
 -	For each stream, a summary documentation will be attached (merely mathematical oriented)
