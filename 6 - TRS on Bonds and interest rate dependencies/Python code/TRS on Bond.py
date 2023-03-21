@@ -22,8 +22,8 @@ class FiniteDifferences(object):
         self.M, self.N = int(M), int(N)
         self.boundary_conds = np.linspace(rmin, rmax, self.M+1)
         self.dr = (rmax - rmin) / float(self.M)
-        if self.dr > (self.sigma**2)/(LA.norm(self.alpha*(self.beta-self.boundary_conds))):
-            self.dr = (self.sigma**2)/(LA.norm(self.alpha*(self.beta-self.boundary_conds)))
+        if self.dr > (self.sigma**2)/(LA.norm(self.alpha*(self.beta-self.boundary_conds), ord=np.inf)):
+            self.dr = (self.sigma**2)/(LA.norm(self.alpha*(self.beta-self.boundary_conds), ord=np.inf))
         self.dt = T / float(self.N)
         if self.dt > (self.dr**2)/(self.sigma**2):
             self.dt = (self.dr**2)/(self.sigma**2)
