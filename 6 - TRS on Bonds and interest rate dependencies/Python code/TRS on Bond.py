@@ -154,5 +154,5 @@ class FDExplicitTRS(FiniteDifferences):
 
 couponSchedule = (25,50,75)
 Bond = FDExplicitBond(0.05,2,0.1,0.3,0.01,0.0,0.2,100,100,couponSchedule,0.025)
-TRS = FDExplicitTRS(0.05,1,0.1,0.3,0.01,0.0,0.2,100,80,Bond, 1.0, True)
+TRS = FDExplicitTRS(0.05,1,0.1,0.3,0.01,0.0,0.2,100,80,Bond, 1.0,0.02, True)
 print(TRS.price())
