@@ -8,13 +8,13 @@ public:
 	FiniteDifferences(double _r0, double _T, double _sigma, double _alpha, double _beta, double _rmin,
 		double _rmax, int _M, int _N);
 	virtual void _setup_boundary_conditions_() = 0;
-	virtual void _setup_coefficients_() final;
+	void _setup_coefficients_() final;
 	virtual void _traverse_grid_() = 0;
-	virtual double _interpolate_() const final;
-	virtual double price() final;
-	virtual int getN() const final;
-	virtual double getT() const final;
-	virtual Eigen::MatrixXd getGrid() const final;
+	double _interpolate_() const final;
+	double price() final;
+	int getN() const final;
+	double getT() const final;
+	Eigen::MatrixXd getGrid() const final;
 
 protected:
 	double r0;
