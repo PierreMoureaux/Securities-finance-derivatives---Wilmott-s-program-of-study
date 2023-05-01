@@ -15,6 +15,7 @@ Programs of study are following ones:
    - VI-TRS on Bonds and interest rate dependencies
    - VII-Two-factor explicit, with both stochastic asset and interest rate
    - VIII-Two-factor implicit, with both stochastic asset and interest rate
+   - IX-Bonus : TRS on equity with jump process
 
 III – Disclaimers
 -	For each stream, a summary documentation will be attached (merely mathematical oriented)
